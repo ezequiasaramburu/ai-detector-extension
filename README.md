@@ -62,4 +62,10 @@ To add a new platform, add an entry to the `PLATFORMS` array in `content.js`:
   meta: [] }
 ```
 
-`type` can be: `"ai"`, `"ai_likely"`, `"ai_possible"`, `"human_likely"`
+`type` can be: `"ai"`, `"ai_likely"`, `"ai_possible`, `"human_likely"`.
+
+See `CONTRIBUTING.md` for detailed guidelines on adding platforms and AI providers.
+
+## License
+
+This project is open source under the **MIT License**. See the `LICENSE` file for details.
