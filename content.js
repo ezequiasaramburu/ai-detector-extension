@@ -155,6 +155,7 @@ const AI_API_DOMAINS = [
   "bot-runtime.use1a.aws.amazon.com",
   "general-runtime.voiceflow.com",
   "api.botpress.io",
+  "copilot.tidio.com",
 ];
 
 function scanPage() {

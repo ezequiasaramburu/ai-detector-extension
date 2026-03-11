@@ -21,6 +21,7 @@ const AI_API_PATTERNS = [
   { pattern: "api.ada.support",                    label: "Ada Support API",       confidence: 90 },
   { pattern: "api.drift.com",                      label: "Drift AI API",          confidence: 85 },
   { pattern: "app.tidio.co/api",                   label: "Tidio Bot API",         confidence: 85 },
+  { pattern: "copilot.tidio.com",                  label: "Tidio Copilot API",     confidence: 95 },
 ];
 
 // In-memory store: tabId → { networkHits, domResults }
