@@ -3,14 +3,8 @@
   "name": "Is This AI? – Chat Detector",
   "version": "1.0.0",
   "description": "Detects if the customer service chat on the current page is powered by AI.",
-  "permissions": [
-    "activeTab",
-    "scripting",
-    "webRequest"
-  ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
+  "permissions": ["activeTab", "webRequest"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
